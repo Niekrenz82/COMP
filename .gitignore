@@ -8,3 +8,23 @@ wheels/Gh
 
 # Virtual environments
 .venv
+
+# LaTeX build artifacts (keep the .tex source and the final PDF)
+*.aux
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.synctex(busy)
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.lof
+*.lot
+*.nav
+*.snm
+*.xdv
+*.dvi

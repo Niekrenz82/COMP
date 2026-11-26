@@ -1,0 +1,16 @@
+{
+  // Spell and grammar checking for LaTeX files via the LTeX+ extension.
+  // Words added to the dictionary are stored in .vscode/ltex.dictionary.en-US.txt
+  "ltex.language": "en-US",
+  "ltex.enabled": ["latex", "markdown", "plaintext"],
+
+  // LaTeX Workshop: compile with latexmk (pdflatex) on save and clean up auxiliary files.
+  "latex-workshop.latex.recipe.default": "latexmk (pdflatex)",
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.latex.clean.fileTypes": [
+    "*.aux", "*.bbl", "*.blg", "*.fdb_latexmk", "*.fls", "*.log", "*.out", "*.synctex.gz"
+  ],
+
+  // Style linting with ChkTeX (ships with MiKTeX / TeX Live).
+  "latex-workshop.linting.chktex.enabled": true
+}
